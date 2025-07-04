@@ -1,7 +1,7 @@
 // const express = require("express");
 import express from "express";
 import "dotenv/config";
-import webRoutes from "./routes/web";
+import webRoutes from "routes/web";
 
 const PORT = process.env.PORT || 8080;
 const app = express();
@@ -22,5 +22,4 @@ webRoutes(app);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port: ${PORT}`);
-  console.log(PORT);
 });
