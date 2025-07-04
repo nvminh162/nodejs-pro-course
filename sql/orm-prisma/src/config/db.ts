@@ -8,7 +8,7 @@ const getConnection = async () => {
     host: "localhost",
     user: "root",
     password: "root",
-    database: "nodejspro",
+    database: "nvminh162prisma",
   });
 };
 
